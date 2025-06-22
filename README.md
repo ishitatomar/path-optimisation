@@ -8,10 +8,13 @@ It offers an interactive and visually appealing GUI to explore routes and also c
 🧠 Core Functionalities:
 ✅ Data Loading & Cleaning
  Efficiently reads and pre-processes airport connection data from a CSV file handling data cleaning.
+ 
 ✅ Graph Construction
  Airports are modeled as nodes and flight distances as weighted edges. The backend constructs the graph and integrates Dijkstra and A* algorithms for pathfinding.
+ 
 ✅ Pathfinding Engine
  Allows users to choose between Dijkstra or A* to find the shortest route between two airports (via IATA code or full name). Returns the optimal path, total distance (in km), and execution time (in ms).
+ 
 ✅ Interactive GUI
  Developed using Qt, featuring intuitive search boxes with auto-complete, styled result displays, and real-time output for distance and time.
 
